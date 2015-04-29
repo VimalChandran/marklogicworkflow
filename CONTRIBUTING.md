@@ -123,11 +123,12 @@ When the feature is complete and ready to be integrated back in to the develop b
 1. If on your own Fork (99% of people):-
 ```sh
 $ git commit -m "Fixes #ISSUEID"
-$ git pull origin develop
-$ git checkout develop
-$ git merge feature-ISSUEID
 $ git push
 ```
+
+Now do a Pull Request on GitHub.com from your feature branch to the develop (and ONLY the develop) branch. Please try
+to resolve any merge conflicts before submitting a pull request - your local develop branch may be out of date if a
+release was done, or other feature committed, to the main repository.
 
 2. If an assigned admin user (contributor) on the main project, do this instead:-
 ```sh
